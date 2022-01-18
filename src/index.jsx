@@ -1,16 +1,3 @@
-import React from 'react'
-import App  from './App.jsx'
+import { render } from 'react-dom'
 
-
-function Main(){
-  return (
-    <div>
-      <h1>Hello World!</h1>
-      <h2>Cruel word</h2>
-      <App/>
-    </div>
-  )
-}
-
-
-export default App;
+render(<h1>Teste</h1>, document.getElementById('root'));
